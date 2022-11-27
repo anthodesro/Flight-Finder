@@ -22,3 +22,4 @@ if __name__ == "__main__":
         else:
             print(f'{time.ctime()}: Successfully finished collecting flight details...')
         time.sleep(settings.SLEEP_INTERVAL)
+    print("test")

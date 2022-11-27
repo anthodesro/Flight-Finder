@@ -11,6 +11,8 @@ if __name__ == "__main__":
     while True:
         print(f'{time.ctime()}: Collecting flight details...')
         try:
+            print("test2")
+            print("test3")
             search_flight()
             slack_util()
         except KeyboardInterrupt:

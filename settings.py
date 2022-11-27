@@ -48,3 +48,5 @@ try:
     TOKEN_FOR_SLACK = SLACK_TOKEN
 except Exception:
     pass
+
+print("test")
